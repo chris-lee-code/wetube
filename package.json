@@ -13,9 +13,6 @@
     "save": "^2.4.0"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node init.js --delay 2",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development",
     "dev:server": "nodemon --exec babel-node init.js --delay 2",
     "dev:assets": "WEBPACK_ENV=development webpack",
     "build:assets": "WEBPACK_ENV=production webpack"
@@ -36,7 +33,7 @@
     "autoprefixer": "^9.7.5",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
-    "css-loader": "^3.4.2",
+    "css-loader": "^3.5.2",
     "dotenv": "^8.2.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
